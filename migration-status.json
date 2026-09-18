@@ -1,0 +1,17 @@
+{
+  "project": "squircle",
+  "status": "dependencies-linked",
+  "entrypoint": "Squircle.run()",
+  "loadedDependencies": [
+    "js/SquircleArc.js",
+    "js/SquircleBezier.js",
+    "js/SquirclePolygon.js",
+    "Squircle.js"
+  ],
+  "sharedLibraries": [
+    "DomBasics.js"
+  ],
+  "styles": [
+    "squircle.css"
+  ]
+}

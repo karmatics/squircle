@@ -1,0 +1,30 @@
+{
+  "name": "squircle",
+  "version": "1.0.0",
+  "description": "Squircle visual geometry and corner smoothing tool",
+  "type": "luno-web-app",
+  "entrypoint": {
+    "file": "Squircle.js",
+    "class": "Squircle",
+    "method": "run"
+  },
+  "main": [
+    "js/SquircleArc.js",
+    "js/SquircleBezier.js",
+    "js/SquirclePolygon.js",
+    "Squircle.js"
+  ],
+  "library": [
+    "DomBasics.js",
+    "UITools.js"
+  ],
+  "styles": [
+    "squircle.css"
+  ],
+  "processedCountSinceCheckpoint": 4,
+  "changedMethods": {
+    "Luno/core/LunoServer.js": "2026-09-09T03:00:20.817Z",
+    "Luno/app/LunoDeployEngine.js": "2026-09-09T02:58:02.124Z",
+    "Luno/app/LunoManifestDecisionEngine.js": "2026-09-09T03:00:20.817Z"
+  }
+}
